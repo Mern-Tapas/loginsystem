@@ -1,0 +1,21 @@
+{{>header}}
+
+        <!-- body content -->
+        <div class="row">
+            <div class="col-md-6 d-md-block d-none">
+                <img src="" alt="">
+            </div>
+            <div class="col-md-6 col-12 login-section">
+                <form action="./login" method="post" class="d-flex flex-column login-form p-4">
+                    <h4 class="pb-3 text-secondary">Login You Account</h4>
+                    <input  placeholder="Email" required="true" type="email" name="email" id="">
+                    <input  placeholder="Password" type="password" required="true" name="password" id="">
+                    <button type="submit" class="my-5">Login</button>
+                    <h6>{{error}}</h6>
+                <a href="">Forgot Password / Reset Password</a>
+                <a href="register">Create New Account</a>
+                </form>
+            </div>
+        </div>
+        <!-- body content -->
+{{>footer}}

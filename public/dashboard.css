@@ -1,0 +1,27 @@
+.main-box{
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+}
+.sidebar{
+    width: 4%;
+    height: 100%;
+    background: white;
+    box-shadow: 10px 0px 30px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+.dashbord-body{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+}
+.top-bar{
+    height: 7%;
+    width: 100%;
+}
+.dashbord-containt{
+    overflow-y: scroll;
+    height: 93%;
+}

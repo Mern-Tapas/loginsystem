@@ -1,0 +1,22 @@
+{{>header}}
+
+        <!-- body content -->
+        <div class="row">
+            <div class="col-md-6 d-md-block d-none">
+                <img src="" alt="">
+            </div>
+            <div class="col-md-6 col-12 login-section">
+                <form action="./register" method="post" class="d-flex flex-column login-form p-4">
+                    <h4 class="pb-3 text-secondary">Create New Account</h4>
+                    <p>{{err}}</p>
+                    <input  placeholder="First Name" type="text" name="firstName" id="">
+                    <input required="true" placeholder="Last Name" type="text" name="lastName" id="">
+                    <input required="true" placeholder="Email" type="email" name="email" id="">
+                    <input required="true" placeholder="Password" type="password" name="password" id="">
+                    <input required="true" placeholder="Confirm Password" type="password" name="Cpassword" id="">
+                    <button type="submit" class="mt-5">Submin</button>
+                </form>
+            </div>
+        </div>
+        <!-- body content -->
+{{>footer}}
